@@ -184,7 +184,9 @@ Sub DetalledelaLinea()
 	If DataTable("e_WIC_ValidaCli",dtLocalSheet)="SI" Then
 	
 
-RunAction "WIC1", oneIteration
+
+
+RunAction "WIC", oneIteration
 
 
 	End If
